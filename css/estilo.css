@@ -6,8 +6,8 @@ body {
 /* === Estilos globais === */
 .secao {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .paragrafo {
@@ -19,18 +19,24 @@ body {
 }
 
 /* ===  1ª seção === */
+
 .topo {
     background-color: #afddfb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+
 }
 
 .topo img {
     width: 150px;
+    
 }
 
 .paragrafo-topo {
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .link-topo {
@@ -45,7 +51,8 @@ body {
 
 .banner {
     padding-top: 0;
-    margin-top: 50px;
+    margin-top: 220px;
+
 }
 
 /* ===  estilos para destaques === */
@@ -125,6 +132,8 @@ h3 {
     width: 210px;
     list-style: none;
     margin: 40px auto 40px;
+ 
+
 }
 
 .item-lista-contato {
